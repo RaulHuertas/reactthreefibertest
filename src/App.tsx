@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import {Canvas} from '@react-three/fiber'
-
+import { KeyboardConfig, NutyColor} from './kbd/configuration'
 
 
 
@@ -20,7 +20,7 @@ function App() {
       </div>
       <div id="canvas-container">
         <Canvas>
-        <color attach="background" args={["black"]}/>
+        <color attach="background" args={[NutyColor.crimson]}/>
         </Canvas>
       </div>
     </>
